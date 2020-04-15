@@ -1,0 +1,7 @@
+**/work
+**/*.ini
+**/*.wlf
+**/*.vcd
+**/covhtmlreport
+**/*.ucdb
+**/*_html
