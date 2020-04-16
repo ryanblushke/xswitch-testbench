@@ -1,2 +1,2 @@
 # xswitch-testbench
-SystemVerilog OOP Reusable Testbench for Xswitch
+SystemVerilog OOP reusable testbench for Xswitch.
