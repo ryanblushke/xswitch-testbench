@@ -1,7 +1,7 @@
 # xswitch-testbench
 SystemVerilog OOP reusable testbench for Xswitch.
 
-# Usage:
+# Usage
 ## Regression Test
 This command will run all testcases and merge the results into a single report.
 ### Functional Coverage
