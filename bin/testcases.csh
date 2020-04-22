@@ -3,25 +3,25 @@
 # CME 435 - 01, Fall Term 2019
 # Project, December 5, 2019
 source /CMC/scripts/mentor.questasim.2019.2.csh
-cd ../verification/phase9_testcases
+cd ../verification/testcases
 
 if (! -e work) vlib work
 
 set testbench_lst = (../../dut/xswitch.svp ../../dut/dut_top.sv interface.sv tbench_top.sv environment.sv transaction.sv generator.sv driver.sv monitor.sv scoreboard.sv assertions.sv coverage.sv)
 
 if ($#argv == 0) then
-  echo "Syntax: csh phase9_testcases.csh <option> <test_name>"
+  echo "Syntax: csh testcases.csh <option> <test_name>"
 endif
 if ($#argv == 1) then
   if ("$argv[1]" != "-l") then
-    echo "Syntax: csh phase9_testcases.csh <option> <test_name>"
+    echo "Syntax: csh testcases.csh <option> <test_name>"
     exit 0
   endif
   echo "Testcases: test_sanity_check, test_reset, test_valid_in"
 endif
 if ($#argv == 2) then
   if ("$argv[1]" != "-t") then
-    echo "Syntax: csh phase9_testcases.csh <option> <test_name>"
+    echo "Syntax: csh testcases.csh <option> <test_name>"
     exit 0
   endif
 
