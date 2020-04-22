@@ -3,7 +3,7 @@
 # CME 435 - 01, Fall Term 2019
 # Project, December 5, 2019
 source /CMC/scripts/mentor.questasim.2019.2.csh
-cd ../verification/testcases
+cd ../verification
 
 if (! -e work) vlib work
 

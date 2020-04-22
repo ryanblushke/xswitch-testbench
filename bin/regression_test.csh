@@ -13,7 +13,7 @@ if ("$argv[1]" != "-fc" && "$argv[1]" != "-cc") then
   exit 0
 endif
 source /CMC/scripts/mentor.questasim.2019.2.csh
-cd ../verification/regression_test
+cd ../verification
 
 if (! -e work) vlib work
 
